@@ -1,0 +1,51 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets / credentials
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# Raw NFL dataset (Kaggle source files) and generic raw-data locations
+/nifi-input/
+data/raw/
+datasets/
+*.zip
+games.csv
+players.csv
+plays.csv
+teams.csv
+week_data.csv
+
+# Spark / Hive / Hadoop local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+checkpoints/
+*.crc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Note: .gitignore can't filter by file size — before committing, double-check that
+# no single new file exceeds ~10MB (e.g. `git status` + `ls -lh`) and keep raw datasets
+# out of version control entirely.

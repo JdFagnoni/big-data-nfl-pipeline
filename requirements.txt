@@ -1,0 +1,9 @@
+# Python dependencies for the analysis/visualization notebooks described in the project
+# report (NFL Data Pipeline Documentation.pdf). The notebooks themselves are not included
+# in this repository — see README.md — so this list reflects what the documentation
+# states was installed and used, not imports parsed from committed code.
+
+pandas
+matplotlib
+seaborn
+pyspark
